@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2293EE215199B800176665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2293ED215199B800176665 /* AppDelegate.swift */; };
+		BE2293F0215199B800176665 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE2293EF215199B800176665 /* GameScene.sks */; };
+		BE2293F2215199B800176665 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE2293F1215199B800176665 /* Actions.sks */; };
+		BE2293F4215199B800176665 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2293F3215199B800176665 /* GameScene.swift */; };
+		BE2293F6215199B800176665 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2293F5215199B800176665 /* GameViewController.swift */; };
+		BE2293F9215199B800176665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2293F7215199B800176665 /* Main.storyboard */; };
+		BE2293FB215199C400176665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2293FA215199C400176665 /* Assets.xcassets */; };
+		BE2293FE215199C400176665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2293FC215199C400176665 /* LaunchScreen.storyboard */; };
+		BE229409215199C500176665 /* OrangeTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE229408215199C500176665 /* OrangeTreeTests.swift */; };
+		BE229414215199C500176665 /* OrangeTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE229413215199C500176665 /* OrangeTreeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE229405215199C500176665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2293E2215199B800176665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2293E9215199B800176665;
+			remoteInfo = OrangeTree;
+		};
+		BE229410215199C500176665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2293E2215199B800176665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2293E9215199B800176665;
+			remoteInfo = OrangeTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2293EA215199B800176665 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2293ED215199B800176665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2293EF215199B800176665 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BE2293F1215199B800176665 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BE2293F3215199B800176665 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BE2293F5215199B800176665 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BE2293F8215199B800176665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2293FA215199C400176665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2293FD215199C400176665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2293FF215199C500176665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE229404215199C500176665 /* OrangeTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE229408215199C500176665 /* OrangeTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTreeTests.swift; sourceTree = "<group>"; };
+		BE22940A215199C500176665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE22940F215199C500176665 /* OrangeTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE229413215199C500176665 /* OrangeTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTreeUITests.swift; sourceTree = "<group>"; };
+		BE229415215199C500176665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2293E7215199B800176665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE229401215199C500176665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE22940C215199C500176665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2293E1215199B800176665 = {
+			isa = PBXGroup;
+			children = (
+				BE2293EC215199B800176665 /* OrangeTree */,
+				BE229407215199C500176665 /* OrangeTreeTests */,
+				BE229412215199C500176665 /* OrangeTreeUITests */,
+				BE2293EB215199B800176665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2293EB215199B800176665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2293EA215199B800176665 /* OrangeTree.app */,
+				BE229404215199C500176665 /* OrangeTreeTests.xctest */,
+				BE22940F215199C500176665 /* OrangeTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2293EC215199B800176665 /* OrangeTree */ = {
+			isa = PBXGroup;
+			children = (
+				BE2293ED215199B800176665 /* AppDelegate.swift */,
+				BE2293EF215199B800176665 /* GameScene.sks */,
+				BE2293F1215199B800176665 /* Actions.sks */,
+				BE2293F3215199B800176665 /* GameScene.swift */,
+				BE2293F5215199B800176665 /* GameViewController.swift */,
+				BE2293F7215199B800176665 /* Main.storyboard */,
+				BE2293FA215199C400176665 /* Assets.xcassets */,
+				BE2293FC215199C400176665 /* LaunchScreen.storyboard */,
+				BE2293FF215199C500176665 /* Info.plist */,
+			);
+			path = OrangeTree;
+			sourceTree = "<group>";
+		};
+		BE229407215199C500176665 /* OrangeTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE229408215199C500176665 /* OrangeTreeTests.swift */,
+				BE22940A215199C500176665 /* Info.plist */,
+			);
+			path = OrangeTreeTests;
+			sourceTree = "<group>";
+		};
+		BE229412215199C500176665 /* OrangeTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE229413215199C500176665 /* OrangeTreeUITests.swift */,
+				BE229415215199C500176665 /* Info.plist */,
+			);
+			path = OrangeTreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2293E9215199B800176665 /* OrangeTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE229418215199C500176665 /* Build configuration list for PBXNativeTarget "OrangeTree" */;
+			buildPhases = (
+				BE2293E6215199B800176665 /* Sources */,
+				BE2293E7215199B800176665 /* Frameworks */,
+				BE2293E8215199B800176665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeTree;
+			productName = OrangeTree;
+			productReference = BE2293EA215199B800176665 /* OrangeTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE229403215199C500176665 /* OrangeTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE22941B215199C500176665 /* Build configuration list for PBXNativeTarget "OrangeTreeTests" */;
+			buildPhases = (
+				BE229400215199C500176665 /* Sources */,
+				BE229401215199C500176665 /* Frameworks */,
+				BE229402215199C500176665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE229406215199C500176665 /* PBXTargetDependency */,
+			);
+			name = OrangeTreeTests;
+			productName = OrangeTreeTests;
+			productReference = BE229404215199C500176665 /* OrangeTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE22940E215199C500176665 /* OrangeTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE22941E215199C500176665 /* Build configuration list for PBXNativeTarget "OrangeTreeUITests" */;
+			buildPhases = (
+				BE22940B215199C500176665 /* Sources */,
+				BE22940C215199C500176665 /* Frameworks */,
+				BE22940D215199C500176665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE229411215199C500176665 /* PBXTargetDependency */,
+			);
+			name = OrangeTreeUITests;
+			productName = OrangeTreeUITests;
+			productReference = BE22940F215199C500176665 /* OrangeTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2293E2215199B800176665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kandy M";
+				TargetAttributes = {
+					BE2293E9215199B800176665 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BE229403215199C500176665 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BE2293E9215199B800176665;
+					};
+					BE22940E215199C500176665 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BE2293E9215199B800176665;
+					};
+				};
+			};
+			buildConfigurationList = BE2293E5215199B800176665 /* Build configuration list for PBXProject "OrangeTree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2293E1215199B800176665;
+			productRefGroup = BE2293EB215199B800176665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2293E9215199B800176665 /* OrangeTree */,
+				BE229403215199C500176665 /* OrangeTreeTests */,
+				BE22940E215199C500176665 /* OrangeTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2293E8215199B800176665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2293F9215199B800176665 /* Main.storyboard in Resources */,
+				BE2293F0215199B800176665 /* GameScene.sks in Resources */,
+				BE2293FB215199C400176665 /* Assets.xcassets in Resources */,
+				BE2293FE215199C400176665 /* LaunchScreen.storyboard in Resources */,
+				BE2293F2215199B800176665 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE229402215199C500176665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE22940D215199C500176665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2293E6215199B800176665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2293F4215199B800176665 /* GameScene.swift in Sources */,
+				BE2293F6215199B800176665 /* GameViewController.swift in Sources */,
+				BE2293EE215199B800176665 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE229400215199C500176665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE229409215199C500176665 /* OrangeTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE22940B215199C500176665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE229414215199C500176665 /* OrangeTreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE229406215199C500176665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2293E9215199B800176665 /* OrangeTree */;
+			targetProxy = BE229405215199C500176665 /* PBXContainerItemProxy */;
+		};
+		BE229411215199C500176665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2293E9215199B800176665 /* OrangeTree */;
+			targetProxy = BE229410215199C500176665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE2293F7215199B800176665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2293F8215199B800176665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2293FC215199C400176665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2293FD215199C400176665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE229416215199C500176665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE229417215199C500176665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE229419215199C500176665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37C6F4857W;
+				INFOPLIST_FILE = OrangeTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE22941A215199C500176665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37C6F4857W;
+				INFOPLIST_FILE = OrangeTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE22941C215199C500176665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37C6F4857W;
+				INFOPLIST_FILE = OrangeTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeTree.app/OrangeTree";
+			};
+			name = Debug;
+		};
+		BE22941D215199C500176665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37C6F4857W;
+				INFOPLIST_FILE = OrangeTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeTree.app/OrangeTree";
+			};
+			name = Release;
+		};
+		BE22941F215199C500176665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37C6F4857W;
+				INFOPLIST_FILE = OrangeTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrangeTree;
+			};
+			name = Debug;
+		};
+		BE229420215199C500176665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37C6F4857W;
+				INFOPLIST_FILE = OrangeTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrangeTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2293E5215199B800176665 /* Build configuration list for PBXProject "OrangeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE229416215199C500176665 /* Debug */,
+				BE229417215199C500176665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE229418215199C500176665 /* Build configuration list for PBXNativeTarget "OrangeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE229419215199C500176665 /* Debug */,
+				BE22941A215199C500176665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE22941B215199C500176665 /* Build configuration list for PBXNativeTarget "OrangeTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE22941C215199C500176665 /* Debug */,
+				BE22941D215199C500176665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE22941E215199C500176665 /* Build configuration list for PBXNativeTarget "OrangeTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE22941F215199C500176665 /* Debug */,
+				BE229420215199C500176665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2293E2215199B800176665 /* Project object */;
+}
