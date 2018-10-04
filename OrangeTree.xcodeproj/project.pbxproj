@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BE2293EE215199B800176665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2293ED215199B800176665 /* AppDelegate.swift */; };
-		BE2293F0215199B800176665 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE2293EF215199B800176665 /* GameScene.sks */; };
-		BE2293F2215199B800176665 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE2293F1215199B800176665 /* Actions.sks */; };
 		BE2293F4215199B800176665 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2293F3215199B800176665 /* GameScene.swift */; };
 		BE2293F6215199B800176665 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2293F5215199B800176665 /* GameViewController.swift */; };
 		BE2293F9215199B800176665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2293F7215199B800176665 /* Main.storyboard */; };
@@ -17,6 +15,10 @@
 		BE2293FE215199C400176665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2293FC215199C400176665 /* LaunchScreen.storyboard */; };
 		BE229409215199C500176665 /* OrangeTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE229408215199C500176665 /* OrangeTreeTests.swift */; };
 		BE229414215199C500176665 /* OrangeTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE229413215199C500176665 /* OrangeTreeUITests.swift */; };
+		BE22942221540AF000176665 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BE22942121540AEF00176665 /* Smashing-Things.atlas */; };
+		BE2294262154490300176665 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2294252154490300176665 /* Orange.swift */; };
+		BE8C46FB215A10F000469BD2 /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE8C46FA215A10F000469BD2 /* Level-1.sks */; };
+		BE8C46FF215D86B100469BD2 /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE8C46FE215D86B100469BD2 /* Level-2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 /* Begin PBXFileReference section */
 		BE2293EA215199B800176665 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2293ED215199B800176665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE2293EF215199B800176665 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BE2293F1215199B800176665 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BE2293F3215199B800176665 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BE2293F5215199B800176665 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BE2293F8215199B800176665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,10 @@
 		BE22940F215199C500176665 /* OrangeTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE229413215199C500176665 /* OrangeTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTreeUITests.swift; sourceTree = "<group>"; };
 		BE229415215199C500176665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE22942121540AEF00176665 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		BE2294252154490300176665 /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		BE8C46FA215A10F000469BD2 /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
+		BE8C46FE215D86B100469BD2 /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +87,12 @@
 		BE2293E1215199B800176665 = {
 			isa = PBXGroup;
 			children = (
+				BE2294252154490300176665 /* Orange.swift */,
 				BE2293EC215199B800176665 /* OrangeTree */,
 				BE229407215199C500176665 /* OrangeTreeTests */,
 				BE229412215199C500176665 /* OrangeTreeUITests */,
 				BE2293EB215199B800176665 /* Products */,
+				BE22942121540AEF00176665 /* Smashing-Things.atlas */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +109,9 @@
 		BE2293EC215199B800176665 /* OrangeTree */ = {
 			isa = PBXGroup;
 			children = (
+				BE8C46FA215A10F000469BD2 /* Level-1.sks */,
+				BE8C46FE215D86B100469BD2 /* Level-2.sks */,
 				BE2293ED215199B800176665 /* AppDelegate.swift */,
-				BE2293EF215199B800176665 /* GameScene.sks */,
-				BE2293F1215199B800176665 /* Actions.sks */,
 				BE2293F3215199B800176665 /* GameScene.swift */,
 				BE2293F5215199B800176665 /* GameViewController.swift */,
 				BE2293F7215199B800176665 /* Main.storyboard */,
@@ -238,11 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE22942221540AF000176665 /* Smashing-Things.atlas in Resources */,
+				BE8C46FB215A10F000469BD2 /* Level-1.sks in Resources */,
 				BE2293F9215199B800176665 /* Main.storyboard in Resources */,
-				BE2293F0215199B800176665 /* GameScene.sks in Resources */,
+				BE8C46FF215D86B100469BD2 /* Level-2.sks in Resources */,
 				BE2293FB215199C400176665 /* Assets.xcassets in Resources */,
 				BE2293FE215199C400176665 /* LaunchScreen.storyboard in Resources */,
-				BE2293F2215199B800176665 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 				BE2293F4215199B800176665 /* GameScene.swift in Sources */,
 				BE2293F6215199B800176665 /* GameViewController.swift in Sources */,
 				BE2293EE215199B800176665 /* AppDelegate.swift in Sources */,
+				BE2294262154490300176665 /* Orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OrangeTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
